@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+body {
+    background-color: rgb(240, 235, 248);
+    font-family: 'Roboto', sans-serif;
+
+}
+input{
+    cursor: pointer;
+}
+select{
+    cursor: pointer;
+}
+label{
+    cursor: pointer;
+}
+
+.container1 {
+    margin: 12px auto;
+    background-color: #fff;
+
+    width: 640px;
+    height: 240px;
+    border-radius: 8px;
+
+}
+
+.insideContainer1 {
+    background-color: rgb(103, 58, 183);
+    border-radius: 8px 8px 0 0;
+    width: 640px;
+    height: 10px;
+}
+
+.container1 h1 {
+    position: relative;
+    top: -4px;
+    left: 24px;
+    font-weight: 500;
+}
+
+.container1 hr {
+    height: 1px;
+    border: none;
+    background-color: #e6e9ef;
+    position: relative;
+    top: -9px;
+}
+
+.insideContainer2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 574px;
+    position: relative;
+    left: 28px;
+    top: -23px;
+}
+
+.insideContainer2 div {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.insideContainer2 p {
+    color: #616162;
+    font-size: 15px;
+    font-weight: 800;
+    margin-right: 3px;
+    font-family: Roboto, Arial, sans-serif;
+
+}
+
+.insideContainerPara {
+    color: #5f6368;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Roboto, Arial, sans-serif;
+    width: 600px;
+    position: relative;
+    top: -26px;
+    left: 28px;
+}
+
+.insideContainerPara2 {
+    color: rgb(217, 48, 37);
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    top: -17px;
+    left: 29px;
+}
+
+.cardbox {
+    display: flex;
+    align-items: center;
+
+}
+
+.cardbox p {
+    margin-right: 4px;
+    margin-top: 25px;
+
+}
+
+.commonCardBox input {
+    width: 18px;
+    height: 28px;
+    margin-right: 8px;
+
+
+}
+
+.commonCardBox label {
+    position: relative;
+    top: -9px;
+    left: 8px;
+}
+
+.listbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.textBox input {
+    border: none;
+    border-bottom: 1px solid rgb(190, 191, 200);
+    margin-top: 20px;
+    width: 570px;
+    outline: none;
+    margin-left: 8px;
+    font-size: 20px;
+    padding-bottom: 9px;
+}
+
+.textBox input::placeholder {
+    font-size: 15px;
+    color: #616162;
+
+}
+
+.textBox input:hover {
+    border: none;
+    border-bottom: 3px solid rgb(76, 41, 255);
+    outline: none;
+}
+
+.dropdownBox {
+    margin-top: 20px;
+    width: 180px;
+    height: 50px;
+    font-size: 16px;
+    padding: 8px 9px;
+    color: #5f6368;
+    float: left;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    border: 2px solid #000;
+    background: url('https://icon-library.com/images/dropdown-icon/dropdown-icon-14.jpg');
+    background-repeat: no-repeat;
+    background-size: 12px 15px;
+    background-position: 147px 14px;
+    border: #c4c4c5 solid 1px;
+    border-radius: 7px;
+    outline: none;
+
+
+}
+
+.hideinput {
+    display: none;
+}
+
+svg {
+    color: blue;
+}
+
+option {
+    position: absolute;
+    top: 17px;
+    font-size: 20px;
+}
+
+.fileBox {
+    margin-top: 17px;
+    color: blue;
+    width: 110px;
+    height: 32px;
+    padding: 1px;
+    border-radius: 4px;
+
+
+    border: #a8adb2 solid 1px;
+}
+
+.fileBox label {
+    position: relative;
+    top: 7px;
+    left: 19px;
+    display: flex;
+    font-size: 14px;
+
+}
+
+.fileBox label svg {
+    color: blue;
+    margin-right: 3px;
+}
+
+.scalebox {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    top: 30px;
+    left: 29px;
+    width: 538px;
+    height: 98px
+}
+
+.multipleBox {
+    display: flex;
+    width: 550px;
+    height: 50px;
+    margin-left: 5px;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+.multipleBox input {
+    position: relative;
+    top: -19px;
+    left: -18px;
+}
+
+.footer {
+    margin: 12px auto;
+
+
+    width: 640px;
+    height: 240px;
+    border-radius: 8px;
+}
+
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 640px;
+
+}
+
+.btn {
+    background-color: rgb(103, 58, 183);
+    color: white;
+    font-size: 15px;
+    width: 82px;
+    height: 34px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+.box1input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1input input {
+    margin-right: 5px;
+
+
+}
+
+.box1 p {
+    color: rgb(103, 58, 183);
+    cursor: pointer;
+}
+
+.box1input div {
+    width: 178px;
+    height: 11px;
+    margin-right: 6px;
+    border-radius: 5px;
+    background-color: rgba(4, 165, 4, 0.89);
+}
+
+.footer span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media screen and (max-width:800px) {
+    .container1 {
+        margin: 12px auto;
+        background-color: #fff;
+
+        width: 540px;
+        height: 270px;
+        border-radius: 8px;
+
+    }
+
+    .insideContainer1 {
+        background-color: rgb(103, 58, 183);
+        border-radius: 8px 8px 0 0;
+        width: 541px;
+        height: 16px;
+    }
+
+    .insideContainer2 {
+
+        width: 494px;
+        position: relative;
+        left: 25px;
+        top: -17px;
+    }
+
+    .insideContainerPara {
+
+        width: 473px;
+        position: relative;
+        top: -30px;
+        left: 22px;
+    }
+
+    .commonCardBox {
+        position: relative;
+        top: 0px;
+        left: 27px;
+    }
+
+    element.style {}
+
+    .textBox input {
+
+        width: 461px;
+    }
+
+    .scalebox {
+
+        width: 420px;
+    }
+    .multipleBox {
+        display: flex;
+        width: 475px;}
+        
+
+.footer {
+    margin: 12px auto;
+    width: 530px;
+}
+.box1 {
+    
+    width: 532px;
+}
+.box1input div {
+    width: 111px;}
+}
+
+@media screen and (max-width:600px) {
+    .container1{
+        position: relative;
+        top: 30px;
+        left: 40px;
+    
+    }
+    .footer{
+        position: relative;
+        top: 30px;
+        left: 40px;
+    }
+}
