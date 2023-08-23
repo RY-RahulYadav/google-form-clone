@@ -407,9 +407,7 @@ option {
         width: 21rem;
         height: 356px;
         border-radius: 8px;
-        position: relative;
        
-        left: 0.5rem;
     }
     .insideContainer2 p {
         color: #616162;
