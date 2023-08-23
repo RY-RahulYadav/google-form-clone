@@ -5,6 +5,8 @@ body {
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
     width: 100vw;
+    margin: 0;
+    padding: 0;
 
 
 }
@@ -445,9 +447,14 @@ option {
     .commonCardBox {
         position: relative;
         top: 0px;
-        left: 27px;
+        left: 15px;
+        width: 20rem;
+        margin-right: 0;
     }
-
+    .fileBox {
+      
+        width: 8rem;
+       }
     .commonCardBox label{
         font-size:1.2rem;
     }
@@ -478,7 +485,7 @@ option {
         
 
 .footer {
-    margin: 12px -32px;
+    margin: 12px -15px;
     width: 20rem;
 }
 .box1 {
