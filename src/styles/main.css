@@ -381,6 +381,7 @@ option {
 }
 
 @media screen and (max-width:600px) {
+
     .html{
         font-size: 1vh;
     }
@@ -388,6 +389,15 @@ option {
         position: relative;
         top: 30px;
         left: 40px;
+    }
+   .listbox{
+    width: 20rem;
+   }
+   .textBox{
+    width: 20rem;
+   }
+    input{
+        width:18rem;
     }
     .container1 {
         margin: 12px auto;
@@ -468,8 +478,8 @@ option {
         
 
 .footer {
-    margin: 12px auto;
-    width: 27rem;
+    margin: 12px -32px;
+    width: 20rem;
 }
 .box1 {
     

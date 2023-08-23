@@ -2,7 +2,7 @@ export default function Card2(props) {
     return (
         <div>
             <div className="container1" style={{ height: props.height }}>
-                <div className="commonCardBox" style={{ width: '590px', margin: "auto" }}>
+                <div className="commonCardBox" style={{  margin: "auto" }}>
                     <div className="cardbox"><p>{props.title}</p><span style={{ color: 'red' }}>*</span></div>
                     <div className="textBox" >
                         {props.type == 'dropdown' && <div>
