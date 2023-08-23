@@ -404,7 +404,7 @@ option {
     .container1 {
         margin: 12px auto;
         background-color: #fff;
-        width: 22rem;
+        width: 21rem;
         height: 356px;
         border-radius: 8px;
         position: relative;
@@ -418,7 +418,7 @@ option {
     .insideContainer1 {
         background-color: rgb(103, 58, 183);
         border-radius: 8px 8px 0 0;
-        width: 22rem;
+        width: 21rem;
     
         height: 16px;
     }
@@ -429,7 +429,7 @@ option {
 
     .insideContainer2 {
 
-        width: 19rem;
+        width: 18rem;
         position: relative;
         left: 25px;
         top: -17px;
@@ -437,7 +437,7 @@ option {
 
     .insideContainerPara {
 
-        width: 19rem;
+        width: 18rem;
         font-size: 19px;
         position: relative;
         top: -30px;
@@ -448,7 +448,7 @@ option {
         position: relative;
         top: 0px;
         left: 15px;
-        width: 20rem;
+        width: 19rem;
         margin-right: 0;
     }
     .fileBox {
@@ -467,13 +467,13 @@ option {
     }
     .textBox input {
 
-        width: 18rem;
+        width: 17rem;
     }
 
     .scalebox {
 
         
-        width: 17rem;
+        width: 16rem;
         left: 10px;
     }
     .labelmult{
@@ -481,7 +481,7 @@ option {
     }
     .multipleBox {
         display: flex;
-        width: 19rem;}
+        width: 18rem;}
         
 
 .footer {
@@ -492,7 +492,7 @@ option {
 }
 .box1 {
     
-    width: 22rem;
+    width: 21rem;
 }
 .box1input div {
     width: 4rem;}
@@ -513,6 +513,6 @@ option {
     }
 
     .footerp{
-        width: 22rem;
+        width: 21rem;
     }
 }
