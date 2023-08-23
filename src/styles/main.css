@@ -490,18 +490,18 @@ option {
 }
 .box1 {
     
-    width: 21rem;
+    width: 20rem;
 }
 .box1input div {
-    width: 4rem;}
+    width: 3.8rem;}
     .box1 p {
         font-size: 0.9rem;
     }    
     .btn {
         
         font-size: 18px;
-        width: 5.9rem;
-    height: 2.8rem;}
+        width: 5.8rem;
+    height: 2.7rem;}
 
     .footer span{
         font-size: 0.8rem;
@@ -511,6 +511,6 @@ option {
     }
 
     .footerp{
-        width: 21rem;
+        width: 20rem;
     }
 }
