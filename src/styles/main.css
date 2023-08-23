@@ -408,8 +408,8 @@ option {
         height: 356px;
         border-radius: 8px;
         position: relative;
-        /* top: 30px;
-        left: 40px; */
+       
+        left: 0.5rem;
     }
     .insideContainer2 p {
         color: #616162;
@@ -485,7 +485,9 @@ option {
         
 
 .footer {
-    margin: 12px -15px;
+  margin-top: 12px;
+  margin-left: -1rem ;
+  margin-right: 0;
     width: 20rem;
 }
 .box1 {
