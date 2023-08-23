@@ -20,7 +20,7 @@ export default function Card3(props) {
               
                   <div >
                     <div className="multipleBox">
-                        <div style={{width:"135px"}}></div>
+                        <div className="labelmult"></div>
                         <div>column 1</div>
                         <div>column 2</div>
                         <div>column 3</div>
@@ -29,7 +29,7 @@ export default function Card3(props) {
                         return(
                        
                         <div key ={`props.type${index}`} className="multipleBox">
-                        <label htmlFor="row1" style={{width:"135px"}}>{item}</label>
+                        <label className="labelmult" htmlFor="row1" >{item}</label>
                         <input className={item} type={props.type}  id={`${item}1` }  onClick={(e)=>{handleclick(item,e)}}/>
                         <input className ={item} type={props.type}  id={`${item}2`}  onClick={(e)=>{handleclick(item,e)}} />
                         <input className={item} type={props.type}  id={`${item}3`}  onClick={(e)=>{handleclick(item,e)}}/>

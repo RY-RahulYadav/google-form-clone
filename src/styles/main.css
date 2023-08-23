@@ -3,6 +3,7 @@
 body {
     background-color: rgb(240, 235, 248);
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 
 }
 input{
@@ -31,7 +32,14 @@ label{
     width: 640px;
     height: 10px;
 }
+.hr2{
+    height: 1px;
+    border: none;
+    background-color: #e6e9ef;
+    position: relative;
+    top: -22px;
 
+}
 .container1 h1 {
     position: relative;
     top: -4px;
@@ -39,7 +47,7 @@ label{
     font-weight: 500;
 }
 
-.container1 hr {
+.hr1 {
     height: 1px;
     border: none;
     background-color: #e6e9ef;
@@ -55,6 +63,9 @@ label{
     position: relative;
     left: 28px;
     top: -23px;
+}
+.labelmult{
+    width:135px;
 }
 
 .insideContainer2 div {
@@ -368,15 +379,115 @@ option {
 }
 
 @media screen and (max-width:600px) {
-    .container1{
-        position: relative;
-        top: 30px;
-        left: 40px;
-    
+    .html{
+        font-size: 1vh;
     }
     .footer{
         position: relative;
         top: 30px;
         left: 40px;
+    }
+    .container1 {
+        margin: 12px auto;
+        background-color: #fff;
+        width: 22rem;
+        height: 356px;
+        border-radius: 8px;
+        position: relative;
+        /* top: 30px;
+        left: 40px; */
+    }
+    .insideContainer2 p {
+        color: #616162;
+        font-size: 14px;}
+
+    .insideContainer1 {
+        background-color: rgb(103, 58, 183);
+        border-radius: 8px 8px 0 0;
+        width: 22rem;
+    
+        height: 16px;
+    }
+    .hr2{
+        position: relative;
+        top: -30px;
+    }
+
+    .insideContainer2 {
+
+        width: 19rem;
+        position: relative;
+        left: 25px;
+        top: -17px;
+    }
+
+    .insideContainerPara {
+
+        width: 19rem;
+        font-size: 19px;
+        position: relative;
+        top: -30px;
+        left: 25px;
+    }
+
+    .commonCardBox {
+        position: relative;
+        top: 0px;
+        left: 27px;
+    }
+
+    .commonCardBox label{
+        font-size:1.2rem;
+    }
+    .commonCardBox input {
+        width: 1.3rem;
+       
+    }
+    .cardbox p {
+        font-size: 1.4rem;
+    }
+    .textBox input {
+
+        width: 18rem;
+    }
+
+    .scalebox {
+
+        
+        width: 17rem;
+        left: 10px;
+    }
+    .labelmult{
+        width:4rem;
+    }
+    .multipleBox {
+        display: flex;
+        width: 19rem;}
+        
+
+.footer {
+    margin: 12px auto;
+    width: 27rem;
+}
+.box1 {
+    
+    width: 22rem;
+}
+.box1input div {
+    width: 4rem;}
+    .box1 p {
+        font-size: 0.9rem;
+    }    
+    .btn {
+        
+        font-size: 18px;
+        width: 5.9rem;
+    height: 2.8rem;}
+
+    .footer span{
+        font-size: 0.8rem;
+    }
+    .footerp{
+        width: 22rem;
     }
 }
