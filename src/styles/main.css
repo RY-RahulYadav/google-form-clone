@@ -4,6 +4,8 @@ body {
     background-color: rgb(240, 235, 248);
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
+    width: 100vw;
+
 
 }
 input{
@@ -487,6 +489,10 @@ option {
     .footer span{
         font-size: 0.8rem;
     }
+    .cardbox {
+        width: 20rem;
+    }
+
     .footerp{
         width: 22rem;
     }
